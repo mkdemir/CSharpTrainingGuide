@@ -19,14 +19,21 @@ namespace Methods
             //var result = Add2(20);
             //Console.WriteLine(result);
 
-            int number1 = 20; // Değer tip 
-            int number2 = 100;
+            //int number1 = 20; // Değer tip 
+            //int number1;
+            //int number2 = 100;
 
-            //var result2 = Add3(ref number1, number2);
-            var result2 = Add3(out number1, number2);
+            ////var result2 = Add3(ref number1, number2);
+            //var result2 = Add3(out number1, number2);
 
-            Console.WriteLine(result2);
-            Console.WriteLine(number1); // Sonuç 20'dir. Neden çünkü biz burada değer tipler için çalışıyoruz. Değer tipler ile referans tiplerin farkını öğrenmeliyiz. Değer tiplerde tamamen değişkenin tipleri ile ilgilenir. Değer tipler için geçerli
+            //Console.WriteLine(result2);
+            //Console.WriteLine(number1); // Sonuç 20'dir. Neden çünkü biz burada değer tipler için çalışıyoruz. Değer tipler ile referans tiplerin farkını öğrenmeliyiz. Değer tiplerde tamamen değişkenin tipleri ile ilgilenir. Değer tipler için geçerli
+
+            Console.WriteLine(Multiply(2, 4));
+            Console.WriteLine(Multiply(2, 4,5));
+
+            Console.WriteLine(Add4(1,2,3,4,5,6));
+
             Console.ReadLine(); // Konsol dursun diye yazdık.
 
         }
@@ -53,8 +60,10 @@ namespace Methods
         //}
 
         // Son dönemlerde gelen default parametrelerle çalşma
-        static int Add2(int x, int number1 = 30, int number2 = 30) // Eğer number 2 verilmezse o zaman default değer olarak 30 kullan
-        // Default değerler herzaman metodun en son tarafında olması lazım.
+        static int
+            Add2(int x, int number1 = 30,
+                int number2 = 30) // Eğer number 2 verilmezse o zaman default değer olarak 30 kullan
+            // Default değerler herzaman metodun en son tarafında olması lazım.
         {
             var result = number1 + number2;
             return result;
@@ -78,9 +87,35 @@ namespace Methods
 
         // ref ile bellekte 2 tane veri dönderdiğinizde metodda alsında 2 tane değişken tanımlanıyor. Bunu yapma yukarıdaki number1'in referansını kullan.
 
-    // ref keywordü çok önemlidir. Değer tiplerinin referans tip gibi kullanılmasını sağlar. 
+        // ref keywordü çok önemlidir. Değer tiplerinin referans tip gibi kullanılmasını sağlar. 
 
-    // ref bide bir alternatifi var out
+        // ref bide bir alternatifi var out dediğimiz keyword idir.
+        // Değer tipi referans tipi gibi gönderme
+        // farkı ref de number1 set mutlaka set etmeniz gerekiyor. Yani bir değerin olması gerekiyor. Ama outta böyle bir zorunluluk yok.
+        // out ta bir kere fonk içinde set etmemiz gerkiyor.
 
-}
+        // Method Overloading -> 
+        static int Multiply(int number1, int number2) // Bazı yerlerde 3 tane sayıyı çarpmak gibi bir ihtiyacım varsa // Buraya ayrıca methodun imzası deniyor. int den itibaren int döndüren vb.
+        {
+            return number1 * number2;
+        }
+
+        static int Multiply(int number1, int number2, int number3) // Bazı yerlerde 3 tane sayıyı çarpmak gibi bir ihtiyacım varsa
+        // Siz yukarıda aynı ismi kullanıyoranız farklı parametreler kullanıyorsunuz hiçbir sıkıntı yok buna methodların methodların overload yani aşırı yüklenmesi deniyor 
+        {
+            return number1 * number2 * number3;
+        }
+
+        // Challenge Params Keyword İle -> 
+
+        static int Add4(int number, params int[] numbers) // Dizi notasyonu ile yazıyorsunuz. Ben dizi formatında parametreyi yollayabiliriz. Aynı parametre olması lazım
+        // Önce bir sayıda yolluyabilirsiniz.
+        // paramsdan sonra yazamayız parametre
+        {
+            return numbers.Sum() + number; // Bu bir fonk hazır methodlardan biri daha doğrusu dizi sayısal olduğu için dizideki bütün sayıları topla
+        }
+      
+
+    }
+
 }
