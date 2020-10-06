@@ -1,25 +1,28 @@
-# CSharpTrainingGuide# CSharpTrainingGuide
-Node -> Uygulamalarımızı çalıştırıp yayına alabiliyoruz. Onların paket yönetiminizi yapabiliyoruz. Node bir js motorudur. Node içinde yazdığımız kodlar javascript kodlarıdır.
+# CSharpTrainingGuide
+![alt text](https://github.com/mkdemir/CSharpTrainingGuide/blob/master/images/banner.jpg?raw=true)
+**Node =**  Uygulamalarımızı çalıştırıp yayına alabiliyoruz. Onların paket yönetiminizi yapabiliyoruz. Node bir js motorudur. Node içinde yazdığımız kodlar javascript kodlarıdır. Node bir programalama motorudur.
+## Yazılım
+İnsanların gündelik hayattaki aktivitelerinin bilgisayar destekli sistemlerle kolaylaştırılmasıdır.
+* Sürecin kendisi olduğudur. Ve ürün kendisidir.
+* Udemy.com bir yazılımdır. (Bir web arayüzü izliyoruz.)
+* Yazılımın kalitesi müşteriyi ne kadar tatmin ettiğidir.
+* Nesnelerin interneti, mikro işlemci programlama gibi eylemler sonucu ortaya çıkan ürünlerde birer yazılım olarak dünüşünebiliriz.
+* Günümüzde yazılım insanın merkezinde olduğunu söyleyebiliriz.
+* Yazılım bir süreçtir.
+* Analizde başlar, modelleme, geliştirme, test ve yayına kadar deva eder.
 
-Yazılım -> İnsanların gündelik hayattaki aktivitelerinin bilgisayar destekli sistemlerle kolaylaştırılmasıdır.
-    -> Sürecin kendisi olduğudur. Ve ürün kendisidir.
-    -> Udemy.com bir yazılımdır. (Bir web arayüzü izliyoruz.)
-    -> Yazılımın kalitesi müşteriyi ne kadar tatmin ettiğidir.
-    -> Nesnelerin interneti, mikro işlemci programlama gibi eylemler sonucu ortaya çıkan ürünlerde birer yazılım olarak dünüşünebiliriz.
-    -> Günümüzde yazılım insanın merkezinde olduğunu söyleyebiliriz.
-    -> Yazılım bir süreçtir.
-    -> Analizde başlar, modelleme, geliştirme, test ve yayına kadar deva eder.
+## Programlama 
+Yazılımın teknik tarafıdır. Yazılımın araksındaki kodlardır. Bu bakımdan program dediğiniz şey aslına bakarsanız. Ortaya çıkmış ürünü kasıt ederiz. Arkasında kodlar vardır o kodlar derlenir makina dilinden makine diline çevrilir. Bizin için görsel hale getirilir ve biz kullanıcılar bunu kullanırız.
+* Örneğin bir udemy.com bir web programlama programlama aktivitesi sonucunda ortaya çıkmıştır.
+* Örneğin udemy'inin mobil uygulaması veya kullandığınız whatsapp appi bunlar ise mobil programlamadır. Ardunio programlama iot programalamadır. İşin kodsal sürecidir.
 
-Programlama -> Yazılımın teknik tarafıdır. Yazılımın araksındaki kodlardır. Bu bakımdan program dediğiniz şey aslına bakarsanız. Ortaya çıkmış ürünü kasıt ederiz. Arkasında kodlar vardır o kodlar derlenir makina dilinden makine diline çevrilir. Bizin için görsel hale getirilir ve biz kullanıcılar bunu kullanırız.
-    -> Örneğin bir udemy.com bir web programlama programlama aktivitesi sonucunda ortaya çıkmıştır.
-    -> Örneğin udemy'inin mobil uygulaması veya kullandığınız whatsapp appi bunlar ise mobil programlamadır. Ardunio programlama iot programalamadır. İşin kodsal sürecidir.
+### Programlama Mantığını Anlamak 
+Örnek siz windows işletim sistemi kullanmaktasınız mouse ile sağ tık yağtığınızda karşınıza bir menü çıkar bu menün alt menüleride mevvuttur. Bunu işletim sistemi nasıl çalıştırır. İlk önce siz sağ tıkladığınızda bir komut gönderiyorsunuz işletim sistemine o komutun arka planda  ne yapacağına dair bir sonuç dönüyor. Ve çıkan sonuç ise menüdür.
 
-Programlama Mantığını Anlamak -> Örnek siz windows işletim sistemi kullanmaktasınız mouse ile sağ tık yağtığınızda karşınıza bir menü çıkar bu menün alt menüleride mevvuttur. Bunu işletim sistemi nasıl çalıştırır. İlk önce siz sağ tıkladığınızda bir komut gönderiyorsunuz işletim sistemine o komutun arka planda  ne yapacağına dair bir sonuç dönüyor. Ve çıkan sonuç ise menüdür.
-Node bir programalama motorudur.
 
--> Bilgisayarlar bilmediği şeyi yapamaz.
--> Biz bilgisayarın tanmımasını istedğimiz bir yapı var veri var bunlardan onu tanımlamasını istiyoruz. Programın belleğini silmediğimiz sürece değişkenin değerleri hatırlayacaktır.
--> Programcı hem node içerisinde node bildiği yapınları kullanılır. Hem de node öğrenme sisteminin  ne olduğunu anlayıp ona göre davranır.
+* Bilgisayarlar bilmediği şeyi yapamaz.
+* Biz bilgisayarın tanmımasını istedğimiz bir yapı var veri var bunlardan onu tanımlamasını istiyoruz. Programın belleğini silmediğimiz sürece değişkenin değerleri hatırlayacaktır.
+* Programcı hem node içerisinde node bildiği yapınları kullanılır. Hem de node öğrenme sisteminin  ne olduğunu anlayıp ona göre davranır.
 -> Siz bir dilin söz dizimine hakimseniz siz o dilin programcısınızdır.
 -> beden = 50 -> Buna değer atama işlemi denir. 
 -> Programlama dilleri ingilizce söz dizimine uygun olarak kodlanırlar.

@@ -21,7 +21,7 @@ namespace Arrays
             students[1] = "Derin";
             students[2] = "Salih";
 
-            string[] students2 = {"Engin", "Salih", "Derin"}; // new []{} desekte çalışır no problem
+            string[] students2 = { "Engin", "Salih", "Derin" }; // new []{} desekte çalışır no problem
 
 
 
@@ -35,6 +35,15 @@ namespace Arrays
 
             // Kısıt arrayin belleğini aştın. student[3] = "Ahmet";
             // Çok boyutlu diziler -> multi dimensional
+
+            //string[,] regions = new string[7, 3]; // Türkiyede 7 bölge 3 şehir 7 satır 3 sutun
+            //regions[0, 0] = "İstanbul";
+
+            string[,] regi
+
+
+
+
 
             Console.WriteLine();
             Console.ReadLine();
