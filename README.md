@@ -1,5 +1,5 @@
 # CSharpTrainingGuide
-![alt text](https://github.com/mkdemir/CSharpTrainingGuide/blob/main/banner.jpg?raw=true)
+![alt text](https://github.com/mkdemir/CSharpTrainingGuide/blob/main/banner.jpeg?raw=true)
 **Node =**  Uygulamalarımızı çalıştırıp yayına alabiliyoruz. Onların paket yönetiminizi yapabiliyoruz. Node bir js motorudur. Node içinde yazdığımız kodlar javascript kodlarıdır. Node bir programalama motorudur.
 ## Yazılım
 İnsanların gündelik hayattaki aktivitelerinin bilgisayar destekli sistemlerle kolaylaştırılmasıdır.
