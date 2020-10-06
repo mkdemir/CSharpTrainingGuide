@@ -22,7 +22,7 @@ Yazılımın teknik tarafıdır. Yazılımın araksındaki kodlardır. Bu bakım
 * Biz bilgisayarın tanmımasını istedğimiz bir yapı var veri var bunlardan onu tanımlamasını istiyoruz. Programın belleğini silmediğimiz sürece değişkenin değerleri hatırlayacaktır.
 * Programcı hem node içerisinde node bildiği yapınları kullanılır. Hem de node öğrenme sisteminin  ne olduğunu anlayıp ona göre davranır.
 * Siz bir dilin söz dizimine hakimseniz siz o dilin programcısınızdır.
-*  beden = 50 -> Buna değer atama işlemi denir. 
+*  ''' beden = 50 '''-> Buna değer atama işlemi denir. 
 * Programlama dilleri ingilizce söz dizimine uygun olarak kodlanırlar.
 * Değişkeni tanımlarken, değişken isimleri bitişik yazılır. deneme-bir gibide olabilir. Büyük harfle başlamaz değişken isimleri ondan sonraki kelimler büyük harfle devam eder. Buna pascalcase deniyor.
 
@@ -51,5 +51,5 @@ Yazılımın teknik tarafıdır. Yazılımın araksındaki kodlardır. Bu bakım
 * Ben her bir konu için bir proje oluşturacam sizin için bir kütüphane görevi görecek
 * Biz C# şablonları ile çalışacağız herhangi bir şablonu tercih edebiliriz. (WCF, Test) -> Uygulama hayatımızda 2 veya 3 tane projede çalışıyor olacağız.
 * İlk projem veri tipleri üzerinde olacak dolayısıyla  Console app .net core -> Yeni nesil .net mimarisi açık kaynak .net mimarisi için farklı platformalarda çalışabilen ortamlar için tercih edebileceğimiz uygulamalardır.
-* .net core ile ilk yapılandırmalarla uğraşmak yerine (Piyasadaki çoğu uygulamada .net framework ile elde edilmiştir.) .net core ciddi bir kullanım olgunluğuna gelmemiştir. Zamanla gelecektir.
-* onsole app -> Bu bir konsol uygulamasıdır. Consol uygulaması aslına baksanız profesyonel iş hayatında kullanım alanları var örnek bir servisin host edilmesi aslında bir siyah ekran kodlarımızı gerçekleştirip orada görebiliyoruz. Genellikle eğitimizde amacımız dili anlatmaksa rahat ve hızlıca uygulama yapabiliriz.
+* .Net Core ile ilk yapılandırmalarla uğraşmak yerine (Piyasadaki çoğu uygulamada .net framework ile elde edilmiştir.) .net core ciddi bir kullanım olgunluğuna gelmemiştir. Zamanla gelecektir.
+* Console App: Bu bir konsol uygulamasıdır. Consol uygulaması aslına baksanız profesyonel iş hayatında kullanım alanları var örnek bir servisin host edilmesi aslında bir siyah ekran kodlarımızı gerçekleştirip orada görebiliyoruz. Genellikle eğitimizde amacımız dili anlatmaksa rahat ve hızlıca uygulama yapabiliriz.
