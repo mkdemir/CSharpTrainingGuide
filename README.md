@@ -1,12 +1,6 @@
 # CSharpTrainingGuide
-<<<<<<< HEAD
-![image](https://github.com/mkdemir/CSharpTrainingGuide/blob/main/banner.jpg?raw=true)
-
-
-=======
 ![alt text](https://github.com/mkdemir/CSharpTrainingGuide/blob/main/banner.jpeg?raw=true)
-**Node =**  Uygulamalarımızı çalıştırıp yayına alabiliyoruz. Onların paket yönetiminizi yapabiliyoruz. Node bir js motorudur. Node içinde yazdığımız kodlar javascript kodlarıdır. Node bir programalama motorudur.
->>>>>>> 2430ecb9c59e8fc3893906ad71b2aa8c2e05b8b4
+
 ## Yazılım
 İnsanların gündelik hayattaki aktivitelerinin bilgisayar destekli sistemlerle kolaylaştırılmasıdır.
 * Sürecin kendisi olduğudur. Ve ürün kendisidir.
@@ -41,7 +35,6 @@ Yazılımın teknik tarafıdır. Yazılımın araksındaki kodlardır. Bu bakım
 	3. Asp.net deveploment 
 	4. .Net core-cross -> .net uygulamalar geliştirmek için --> modify diyoruz.
 
-<<<<<<< HEAD
 * Resharper diye bir eklenti var 
 * Solution olarak başlayacağız. -> Blank Solution(Solution içerisinde birden fazla projeyi barındıran mimaridir.) Boş bir çözüm projesi oluşturuyoruz.
 * 2017 sürümünde add to source control mevcut -> TFS ve SVN(Subversion) gibi ortamalara projemizi atmak için kullanılır. Bu ortamalar takım çalışmasının oldğuğu yerlerde kodların paylaşılması tek bir yerde yönetilmesi amacı ile kullanılır.
@@ -51,14 +44,12 @@ Yazılımın teknik tarafıdır. Yazılımın araksındaki kodlardır. Bu bakım
 * İlk projem veri tipleri üzerinde olacak dolayısıyla  Console app .net core -> Yeni nesil .net mimarisi açık kaynak .net mimarisi için farklı platformalarda çalışabilen ortamlar için tercih edebileceğimiz uygulamalardır.
 * .net core ile ilk yapılandırmalarla uğraşmak yerine (Piyasadaki çoğu uygulamada .net framework ile elde edilmiştir.) .net core ciddi bir kullanım olgunluğuna gelmemiştir. Zamanla gelecektir.
 * Console app -> Bu bir konsol uygulamasıdır. Consol uygulaması aslına baksanız profesyonel iş hayatında kullanım alanları var örnek bir servisin host edilmesi aslında bir siyah ekran kodlarımızı gerçekleştirip orada görebiliyoruz. Genellikle eğitimizde amacımız dili anlatmaksa rahat ve hızlıca uygulama yapabiliriz.
-=======
--> Resharper diye bir eklenti var 
--> Solution olarak başlayacağız. -> Blank Solution(Solution içerisinde birden fazla projeyi barındıran mimaridir.) Boş bir çözüm projesi oluşturuyoruz.
--> 2017 sürümünde add to source control mevcut -> TFS ve SVN(Subversion) gibi ortamalara projemizi atmak için kullanılır. Bu ortamalar takım çalışmasının oldğuğu yerlerde kodların paylaşılması tek bir yerde yönetilmesi amacı ile kullanılır.
--> View menüsünden solution explorer açabilirsiniz.
--> Ben her bir konu için bir proje oluşturacam sizin için bir kütüphane görevi görecek
--> Biz C# şablonları ile çalışacağız herhangi bir şablonu tercih edebiliriz. (WCF, Test) -> Uygulama hayatımızda 2 veya 3 tane projede çalışıyor olacağız.
--> İlk projem veri tipleri üzerinde olacak dolayısıyla  Console app .net core -> Yeni nesil .net mimarisi açık kaynak .net mimarisi için farklı platformalarda çalışabilen ortamlar için tercih edebileceğimiz uygulamalardır.
--> .net core ile ilk yapılandırmalarla uğraşmak yerine (Piyasadaki çoğu uygulamada .net framework ile elde edilmiştir.) .net core ciddi bir kullanım olgunluğuna gelmemiştir. Zamanla gelecektir.
--> Console app -> Bu bir konsol uygulamasıdır. Consol uygulaması aslına baksanız profesyonel iş hayatında kullanım alanları var örnek bir servisin host edilmesi aslında bir siyah ekran kodlarımızı gerçekleştirip orada görebiliyoruz. Genellikle eğitimizde amacımız dili anlatmaksa rahat ve hızlıca uygulama yapabiliriz.
->>>>>>> 2430ecb9c59e8fc3893906ad71b2aa8c2e05b8b4
+* Resharper diye bir eklenti var 
+* Solution olarak başlayacağız. -> Blank Solution(Solution içerisinde birden fazla projeyi barındıran mimaridir.) Boş bir çözüm projesi oluşturuyoruz.
+* 2017 sürümünde add to source control mevcut -> TFS ve SVN(Subversion) gibi ortamalara projemizi atmak için kullanılır. Bu ortamalar takım çalışmasının oldğuğu yerlerde kodların paylaşılması tek bir yerde yönetilmesi amacı ile kullanılır.
+* View menüsünden solution explorer açabilirsiniz.
+* Ben her bir konu için bir proje oluşturacam sizin için bir kütüphane görevi görecek
+* Biz C# şablonları ile çalışacağız herhangi bir şablonu tercih edebiliriz. (WCF, Test) -> Uygulama hayatımızda 2 veya 3 tane projede çalışıyor olacağız.
+* İlk projem veri tipleri üzerinde olacak dolayısıyla  Console app .net core -> Yeni nesil .net mimarisi açık kaynak .net mimarisi için farklı platformalarda çalışabilen ortamlar için tercih edebileceğimiz uygulamalardır.
+* .net core ile ilk yapılandırmalarla uğraşmak yerine (Piyasadaki çoğu uygulamada .net framework ile elde edilmiştir.) .net core ciddi bir kullanım olgunluğuna gelmemiştir. Zamanla gelecektir.
+* onsole app -> Bu bir konsol uygulamasıdır. Consol uygulaması aslına baksanız profesyonel iş hayatında kullanım alanları var örnek bir servisin host edilmesi aslında bir siyah ekran kodlarımızı gerçekleştirip orada görebiliyoruz. Genellikle eğitimizde amacımız dili anlatmaksa rahat ve hızlıca uygulama yapabiliriz.
