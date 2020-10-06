@@ -1,6 +1,6 @@
 # CSharpTrainingGuide
 <<<<<<< HEAD
-![image](https://github.com/mkdemir/CSharpTrainingGuide/blob/main/banner.jpg?raw=true "CSharp Image")
+![image](https://github.com/mkdemir/CSharpTrainingGuide/blob/main/banner.jpg?raw=true)
 
 
 =======
