@@ -30,10 +30,10 @@ Yazılımın teknik tarafıdır. Yazılımın araksındaki kodlardır. Bu bakım
 
 ## C# Çalışmama Başlarken 
 **C# Üzerinde Geliştirme Yapmak İçin Bize Gerekli Olan Araçlarlar->**
-	1. Universal Windows
-	2. WPF Console App 
-	3. Asp.net deveploment 
-	4. .Net core-cross -> .net uygulamalar geliştirmek için --> modify diyoruz.
+1. Universal Windows
+2. WPF Console App 
+3. Asp.net deveploment 
+4. .Net core-cross -> .net uygulamalar geliştirmek için --> modify diyoruz.
 
 * Resharper diye bir eklenti var 
 * Solution olarak başlayacağız. -> Blank Solution(Solution içerisinde birden fazla projeyi barındıran mimaridir.) Boş bir çözüm projesi oluşturuyoruz.
